@@ -1,0 +1,141 @@
+.button.visit {
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+
+    text-align: center;
+
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.button.visit:hover {
+    color: black;
+}
+
+.button.visit::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    /* Start from the left */
+    width: 100%;
+    height: 100%;
+
+
+    transition: left 0.8s;
+    z-index: -1;
+}
+
+@media (max-width: 600px) {
+    .button.visit.active::before {
+        left: 0;
+    }
+
+    .button.visit.active {
+        color: black;
+    }
+}
+
+.button.visit:hover::before {
+    left: 0;
+
+    /* Move the pseudo-element to cover the button */
+}
+
+
+/* Ensuring the content of the button is above the pseudo-element */
+.button.visit {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Visit Before - background color */
+
+.beakers-bog .button.visit::before {
+    background-color: #D084FF;
+}
+
+.quiz-wiz .button.visit::before {
+    background-color: #7CE593;
+}
+
+.quests .button.visit::before {
+    background-color: #7AD3EF;
+}
+
+.spacer .button.visit::before {
+    background-color: #F4BB2A;
+}
+
+.match3 .button.visit::before {
+    background-color: #F365D4;
+}
+
+.madragora .button.visit::before {
+    background-color: #343FA9;
+}
+
+.mr-nothing .button.visit::before {
+    background-color: #AABE2C;
+}
+
+
+
+
+
+/* Visit - border */
+
+
+
+.quests .button.visit {
+    border-color: #7AD3EF;
+}
+
+.spacer .button.visit {
+    border-color: #F4BB2A;
+}
+
+
+
+
+/* Visit - border (.bigcontainer) */
+
+.bigcontainer.beakers-bog .button.visit {
+    border-color: #D084FF;
+}
+
+
+.bigcontainer.quiz-wiz .button.visit {
+    border-color: #7CE593;
+}
+
+
+.bigcontainer.quests .button.visit {
+    border-color: #7AD3EF;
+}
+
+.bigcontainer.spacer .button.visit {
+    border-color: #F4BB2A;
+}
+
+.bigcontainer.match3 .button.visit {
+    border-color: #F365D4;
+}
+
+.bigcontainer.madragora .button.visit {
+    border-color: #343FA9;
+}
+
+.bigcontainer.mr-nothing .button.visit {
+    border-color: #AABE2C;
+}
+
+/*  */
+
+.button.visit {
+    border-width: 2px;
+    color: #e9e9e9;
+    font-weight: 200;
+}

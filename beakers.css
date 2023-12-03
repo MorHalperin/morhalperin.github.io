@@ -1,0 +1,272 @@
+body {
+    background-color: white;
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: start;
+    padding: 16px;
+}
+
+header a {
+    padding: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 255);
+    min-width: 400px;
+    max-width: 1100px;
+}
+
+.footer-style {
+    padding: 24px;
+}
+
+/* Text Boxes */
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-content: center;
+    margin-bottom: 24px;
+}
+
+
+
+/* FONTS */
+
+h4 {
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 32px;
+
+}
+
+p1 {
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p2 {
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+p3 {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 10px; 
+}
+
+p4 {
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px; 
+}
+
+p5 {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 10px; 
+
+}
+
+
+/* IMAGES */
+
+img.image {
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+}
+
+img.image-question {
+    object-fit: cover;
+    display: flex;
+    width: 90%;
+    padding: 24px;
+}
+
+img.image-flow-chart {
+    object-fit: cover;
+    display: flex;
+    width: 50%;
+    padding: 24px;
+}
+
+img.image-wireframes {
+    object-fit: cover;
+    display: flex;
+    width: 50%;
+    padding: 8px;
+}
+
+/* ""Findings" section cake containers */
+
+.bigcontainer {
+    display: flex;
+    height: 200px;
+    width: 90%;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.container-titles {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 24px;
+}
+
+.container-text {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 36px;
+}
+
+.container-img {
+    display: flex;
+    height: 100%;
+}
+
+/* Persona aka "DAVE MILLER" containers */
+
+.bigcontainer-dave-lists {
+    display: flex;
+    height: 300px;
+    width: 90%;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.container-title-dave {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+}
+
+.container-text-dave {
+    width: 50%;
+    display: flex;
+    align-self: center;
+    padding: 2px;
+}
+
+.container-lists-dave {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Wireframes (Images) */
+
+.bigcontainer-wireframes {
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    overflow: hidden;
+    margin: 16px;
+}
+
+.bigcontainer-wireframes img {
+    width: 45%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+}
+
+@media (max-width: 600px) {
+
+    .textbox {
+        width: 80%;
+    }
+
+    .bigcontainer {
+        flex-direction: column;
+        height: 400px !important;
+    }
+
+    .bigcontainer .container-titles {
+        width: 100% !important;
+    }
+
+    .bigcontainer .container-text {
+        width: 100% !important;
+    }
+
+    .bigcontainer .container-img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .container-img {
+        height: 40%;
+        object-fit: contain;
+    }
+
+    /* DAVE MILLER */
+
+    .bigcontainer-dave-lists {
+        flex-direction: column;
+        Height: 100% !important;
+    }
+
+    .container-title-dave {
+        width: 100% !important;
+    }
+
+    .container-text-dave {
+        width: 100% !important;
+    }
+
+    .container-lists-dave {
+        width: 90% !important;
+    }
+
+    /* Wireframe Images */
+    .bigcontainer-wireframes {
+        flex-direction: column;
+        Height: 100% !important;
+        Height: 200px !important;
+        width: 100% !important;
+    }
+}
+

@@ -1,0 +1,269 @@
+body {
+    background-color: white;
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: start;
+    padding: 16px;
+}
+
+header a {
+    padding: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(241, 241, 255);
+    min-width: 400px;
+    max-width: 1100px;
+}
+
+.footer-style {
+    padding: 24px;
+}
+
+/* Text Boxes */
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: flex-start;
+    padding: 24px;
+    margin-left: 100px;
+}
+
+.textbox-margin {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: flex-start;
+    margin-bottom: 24px;
+    padding: 40px;
+}
+
+
+/* FONTS */
+
+h2 {
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 32px;
+
+}
+
+h4 {
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 32px;
+
+}
+
+
+
+p1 {
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p2 {
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+/* IMAGES */
+
+img.image {
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+}
+
+img.image-baner {
+    width: 55%;
+    display: flex;
+    align-self: center;
+    padding: 40px;
+    margin-top: 24px;
+    
+}
+
+img.image-opendyslecxic {
+    width: 70%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+}
+
+
+img.image-main {
+    width: 95%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+}
+
+/* Quest window */
+
+.bigcontainer {
+    display: flex;
+    height: 600px;
+    height: 100%;
+    overflow: hidden;
+    margin: 16px;
+    justify-content: space-evenly;
+}
+
+.bigcontainer-reveresed {
+    display: flex;
+    height: 600px;
+    height: 100%;
+    overflow: hidden;
+    margin: 16px;
+    justify-content: space-evenly;
+}
+
+
+.bigcontainer-left {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.bigcontainer img {
+    display: flex;
+    width: 80%;
+    padding: 8px;
+    height: 100%;
+}
+
+.bigcontainer-reveresed img {
+    display: flex;
+    width: 80%;
+    padding: 8px;
+    height: 100%;
+}
+.bigcontainer-right {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.bigcontainer-right p2 {
+    padding-bottom: 24px;
+}
+
+.bigcontainer-right-icons {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.bigcontainer-left-icons {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4px;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    .textbox {
+        width: 80% !important;
+        align-self: center !important;
+        margin-left: 0px;
+    }
+
+    img.image-baner {
+        width: 90% !important;
+        align-self: center;
+        margin-top: 40px;
+    }
+
+    img.main {
+        width: 95% !important;
+    }
+
+    img.image-opendyslecxic {
+        width: 90% !important;
+    }
+
+    .bigcontainer {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .bigcontainer-reveresed {
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+    .bigcontainer-left {
+        width: 86% !important;
+
+    }
+
+    .bigcontainer-right {
+        width: 86%!important;
+     }
+
+     img.image-final {
+        width: 90% !important;
+    }
+
+    .bigcontainer-left-icons {
+        width: 86% !important;
+
+    }
+
+    .bigcontainer-right-icons {
+        width: 86%!important;
+        align-self: center;
+        margin-top: 40px;
+        margin-bottom: 80px;
+     }
+
+}
