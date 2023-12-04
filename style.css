@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,6 +24,52 @@ a {
     cursor: pointer;
 }
 
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-weight: 400;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  } */
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(85, 244, 191);}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
 main {
     display: flex;
     flex-direction: column;
@@ -43,9 +89,17 @@ main {
 .textbox {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 60%;
     align-content: center;
     margin-bottom: 24px;
+}
+
+.textbox-painting {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
 }
 
 
@@ -58,6 +112,7 @@ h2 {
     margin-bottom: 16px;
     margin-top: 32px;
 
+
 }
 
 h4 {
@@ -66,9 +121,18 @@ h4 {
     font-weight: 700;
     margin-bottom: 16px;
     margin-top: 32px;
+    color: rgb(26, 109, 88);
 
 }
 
+
+h5 {
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700;
+    color: rgb(26, 109, 88);
+
+}
 
 
 p1 {
@@ -84,6 +148,7 @@ p2 {
     font-weight: 400;
     margin: 0;
     margin-bottom: 10px;
+    color: rgb(9, 72, 56);
 }
 
 
@@ -111,8 +176,15 @@ img.image-screens {
     margin-bottom: 16px;
 }
 
-img.image-opendyslecxic {
-    width: 70%;
+img.image-intro {
+    width: 60%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+}
+
+img.image-painting {
+    width: 50%;
     display: flex;
     align-self: center;
     padding: 4px;
@@ -128,34 +200,34 @@ img.image-main {
 
 .bigcontainer {
     display: flex;
-    height: 600px;
-    height: 100%;
+    flex-direction: column;
+    height: 50%;
     overflow: hidden;
     margin: 16px;
-    justify-content: space-evenly;
-}
-
-.bigcontainer-left {
-    height: 100%;
-    width: 40%;
-    display: flex;
-    align-self: flex-start;
-    justify-content: center;
-}
-
-.bigcontainer-right {
-    height: 100%;
-    width: 40%;
-    display: flex;
     align-self: center;
     justify-content: center;
-    flex-direction: column;
-    padding: 4px;
 }
 
-.bigcontainer-right p2 {
-    padding-bottom: 24px;
-    padding-left: 4px;
+.container-text {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    overflow: hidden;
+    margin: 16px;
+    align-self: center;
+    justify-content: center;
+}
+
+.container-text p2 {
+    align-self: center;
+    justify-content: center;
+}
+
+.container-text h5 {
+    align-self: center;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .bigcontainer img {
