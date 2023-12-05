@@ -260,6 +260,21 @@ img.image-main {
     height: 100%;
 }
 
+.bigcontainer-micro {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 16px;
+    align-self: center;
+    justify-content: center;
+}
+
+.bigcontainer-micro img {
+    display: flex;
+    width: 70%;
+    padding: 8px;
+    height: 100%;
+}
 
 @media (max-width: 600px) {
 
