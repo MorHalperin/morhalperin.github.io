@@ -190,6 +190,12 @@ img.image-painting {
     padding: 4px;
 }
 
+img.image-escapism {
+    width: 30%;
+    display: flex;
+    align-self: center;
+    padding: 4px;
+}
 
 img.image-main {
     width: 70%;
@@ -237,7 +243,22 @@ img.image-main {
     height: 100%;
 }
 
+.bigcontainer-escapism {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    overflow: hidden;
+    margin: 16px;
+    align-self: center;
+    justify-content: center;
+}
 
+.bigcontainer-escapism img {
+    display: flex;
+    width: 50%;
+    padding: 8px;
+    height: 100%;
+}
 
 
 @media (max-width: 600px) {
