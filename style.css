@@ -65,7 +65,7 @@ a {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: rgb(85, 244, 191);}
+  .dropdown-content a:hover {background-color: rgb(226, 255, 192);}
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
@@ -75,7 +75,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:  rgb(241, 241, 255);
+    background-color:  rgb(236, 236, 236);
     min-width: 400px;
     max-width: 1100px;
 }
@@ -91,6 +91,7 @@ main {
     flex-direction: column;
     width: 60%;
     margin-bottom: 24px;
+    margin-top: 40px;
 }
 
 .textbox-painting {
@@ -115,7 +116,7 @@ h2 {
 
 h2 {
     font-size: 40px;
-    font-family: Comfortaa;
+    font-family: Hubballi;
     font-weight: 700;
     margin-bottom: 16px;
     margin-top: 32px;
@@ -126,7 +127,7 @@ h2 {
 h4 {
     font-size: 24px;
     font-family: Comfortaa;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 16px;
     margin-top: 32px;
     color: rgb(26, 109, 88);
@@ -135,11 +136,11 @@ h4 {
 
 
 h5 {
-    font-size: 20px;
-    font-family: Comfortaa;
-    font-weight: 400;
-    margin: 32px;
-    color: rgb(26, 109, 88);
+    font-size: 12px;
+    font-family: Hubballi;
+    color: black;
+    font-weight: 300;
+    margin: 0px;
 
 }
 
@@ -153,11 +154,11 @@ p1 {
 
 p2 {
     font-size: 16px;
-    font-family: Comfortaa;
+    font-family: Hubballi;
     font-weight: 300;
     margin: 0;
     margin-bottom: 10px;
-    color: rgb(9, 72, 56);
+    color:black;
 }
 
 
@@ -183,6 +184,12 @@ img.image-screens {
     align-self: center;
     padding: 4px;
     margin-bottom: 16px;
+}
+
+img.image-MORI {
+    width: 20%;
+    display: flex;
+    align-self: center;
 }
 
 img.image-intro {
