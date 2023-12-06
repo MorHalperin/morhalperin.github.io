@@ -277,6 +277,23 @@ img.image-main {
     justify-content: center;
 }
 
+
+.handwriting {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 80%;
+    overflow: hidden;
+    margin: 16px;
+    align-self: center;
+    justify-content: center;
+}
+
+.handwriting img {
+    display: flex;
+    width: 50%;
+}
+
 .container-text {
     display: flex;
     flex-direction: column;
@@ -341,6 +358,15 @@ img.image-main {
 
 @media (max-width: 600px) {
 
+    .text {
+        width: 90% !important;
+    }
+
+    .text p2 {
+        width: 90% !important;
+        font-size: 20px !important;
+    }
+
     .textbox {
         width: 80% !important;
     }
@@ -368,6 +394,16 @@ img.image-main {
 
     img.image-opendyslecxic {
         width: 90% !important;
+    }
+
+    .handwriting {
+        flex-direction: column;
+        width: 80% !important;
+    }
+
+    .handwriting img {
+        align-self: center;
+        width: 80% !important;
     }
 
     .bigcontainer {
