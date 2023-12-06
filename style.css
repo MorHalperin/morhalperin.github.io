@@ -99,8 +99,8 @@ main {
 
 .textbox {
     display: flex;
-    flex-direction: column;
-    width: 60%;
+    justify-content: center;
+    width: 100%;
     margin-bottom: 24px;
     margin-top: 40px;
 }
@@ -199,6 +199,12 @@ img.image-screens {
 
 img.image-MORI {
     width: 20%;
+    display: flex;
+    align-self: center;
+}
+
+img.image-ipaint {
+    width: 80%;
     display: flex;
     align-self: center;
 }
@@ -350,6 +356,10 @@ img.image-main {
 
     .image-MORI {
         width: 40% !important;
+    }
+
+    img.image-ipaint {
+        width: 95%;
     }
 
     img.image-main {
