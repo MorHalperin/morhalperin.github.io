@@ -164,7 +164,7 @@ p1 {
 }
 
 p2 {
-    font-size: 16px;
+    font-size: 20px;
     font-family: Hubballi;
     font-weight: 400;
     margin: 0;
@@ -364,7 +364,7 @@ img.image-main {
 
     .text p2 {
         width: 95% !important;
-        font-size: 20px !important;
+        font-size: 24px !important;
         align-self: center;
     }
 
