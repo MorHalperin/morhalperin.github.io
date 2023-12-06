@@ -363,8 +363,9 @@ img.image-main {
     }
 
     .text p2 {
-        width: 90% !important;
+        width: 95% !important;
         font-size: 20px !important;
+        align-self: center;
     }
 
     .textbox {
