@@ -385,6 +385,18 @@ img.image-main {
         width: 40% !important;
     }
 
+    .image-intro {
+        width: 60% !important;
+    }
+
+    .tiny-images {
+        width: 80% !important;
+    }
+
+    img.image-tiny {
+        width: 60% !important;
+    }
+
     img.image-ipaint {
         width: 95%;
     }
