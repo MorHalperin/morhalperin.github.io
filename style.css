@@ -116,43 +116,23 @@ main {
 
 /* FONTS */
 
-h2 {
-    font-size: 40px;
-    font-family: Hubballi;
-    margin-bottom: 16px;
-    margin-top: 32px;
-
-
-}
-
-h2 {
-    font-size: 40px;
-    font-family: Hubballi;
-    font-weight: 700;
-    margin-bottom: 16px;
-    margin-top: 32px;
-    color: rgb(26, 109, 88);
-
-}
-
 h4 {
     font-size: 24px;
     font-family: Comfortaa;
     font-weight: 400;
     margin-top: 64px;
     color: rgb(34, 34, 34);
-    
-
+    padding: 40px;
 }
 
 
 h5 {
-    font-size: 12px;
-    font-family: Hubballi;
-    color: black;
-    font-weight: 300;
-    margin: 0px;
-
+    font-size: 20px;
+    font-family: Comfortaa;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+    color:rgb(0, 0, 0);
 }
 
 
@@ -164,12 +144,27 @@ p1 {
 }
 
 p2 {
-    font-size: 20px;
-    font-family: Hubballi;
-    font-weight: 400;
-    margin: 0;
-    margin-bottom: 10px;
-    color:rgb(77, 77, 77);
+    font-size: 16px;
+    font-family: Comfortaa;
+    color: rgb(25, 25, 25);
+    font-weight: 300;
+    margin: 0px;
+}
+
+p3 {
+    font-size: 16px;
+    font-family: Comfortaa;
+    color: rgb(96, 96, 96);
+    font-weight: 300;
+    margin: 0px;
+}
+
+p4 {
+    font-size: 12px;
+    font-family: Comfortaa;
+    color: rgb(96, 96, 96);
+    font-weight: 300;
+    margin: 0px; 
 }
 
 
@@ -309,7 +304,21 @@ img.image-main {
     justify-content: center;
 }
 
+.container-text p3 {
+    align-self: center;
+    justify-content: center;
+    width: 80%;
+    padding: 24px;
+}
+
 .container-text h5 {
+    align-self: center;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.container-text h4 {
     align-self: center;
     justify-content: center;
     margin-top: 2px;
