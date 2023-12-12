@@ -420,12 +420,12 @@ img.image-main {
 
     .handwriting {
         flex-direction: column;
-        width: 80% !important;
+        width: 90% !important;
     }
 
     .handwriting img {
         align-self: center;
-        width: 110% !important;
+        width: 100% !important;
     }
 
     .bigcontainer {
